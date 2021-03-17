@@ -1,0 +1,63 @@
+body{
+	text-align: center;
+}
+h3{
+	color:green;
+}
+b{color:red;}
+ul{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+ul,ol,li{
+
+	list-style-position: inside;
+	text-align: left;
+}
+table {
+	width: 50%;
+	margin-left: 25%;
+	border: medium solid blue;
+	border-collapse: collapse;
+}
+th {
+	font-family: monospace;
+	border: thin solid #6495ed;
+	width: 50%;
+	padding: 5px;
+	background-color: #D0E3FA;
+}
+td {
+	font-family: sans-serif;
+	border: thin solid #6495ed;
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+	background-color: #ffffff;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+#textemenu{
+	text-align: center;
+}
+#menu {
+	float:left;
+	position: fixed;
+	width: 15%
+}
+#principal{
+	text-align: center;
+	align-content: center;
+	margin : auto;
+}
+
+#produits{
+	color: red;
+	font-weight: bold;
+
+}
+#menu .titre1 {
+	color: #008000;
+}
