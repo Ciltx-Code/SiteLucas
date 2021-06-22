@@ -355,7 +355,8 @@
                   </h5>
                 </div>
                 <div>
-                  <form action="contact.php" method="post" role="form" class="contactForm">
+                  <form name="contact" method="POST" data-netlify="true" class="contactForm">
+                    <input type="hidden" name="form-name" value="contact">
                     <div id="sendmessage">Votre message a bien été envoyé. Merci!</div>
                     <div id="errormessage"></div>
                     <div class="row">
