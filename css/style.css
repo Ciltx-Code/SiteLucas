@@ -17,6 +17,12 @@ body {
   color: #4e4e4e;
 }
 
+.logo{
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
 h1,
 h2,
 h3,
